@@ -1,2 +1,136 @@
 # teaching
 Basic python scripts to teach programming
+
+https://www.learnpython.org/en/Hello,_World!
+
+- Setup
+-- Install linux terminal
+-- Install python3
+-- Install git
+-- Install text editor (sublime)
+- Command line basics
+-- Command, spaces as separator of params, -options --options
+-- Navigate folders
+-- See folders and files
+-- Create folders
+-- Delete folders
+- Git basics (theory)
+-- what it is
+-- git clone
+-- git status
+-- not tracked -> tracked (staged) -> committed
+-- push
+-- branches (concept only)
+- Programming basics
+-- Text instructions -> Running program
+-- Input / output, constantly running
+-- Interpreted vs Compiled
+-- The compiler is also a program...
+- Hello, world
+-- Run the program
+-- String, print
+-- Hello <Name>
+-- *Introduce an error
+- Comments, empty lines
+-- *Add comments before, after and in line
+- Commit flow
+-- Change file
+-- Commit
+-- See changes in github
+-- Add file
+-- Commit
+-- See changes in github
+- Variables
+-- int, float, string, bool, array, dictionary
+-- declaring, assigning, using
+-- naming
+-- *Print hello world with variable
+- Operations
+-- Adding, multiplying, dividing numbers (int vs float)
+-- Adding strings. Substracting strings?
+-- *Print "30 boxes of 12 eggs each: 360 eggs"
+-- *Print "31 boxes of 12 eggs each: 372 eggs"
+-- *Print "1053 boxes of 12 eggs each: 12636 eggs"
+- If statements
+-- If
+-- Simple conditions on numbers
+-- Simple conditions on strings
+-- *Print "Good chicken". Good chicken have more than 12 eggs
+-- Else
+-- *Print "Good chicken" or "bad chicken"
+-- bools and ifs
+-- Multiple conditions: and, or
+-- *Print "Good chicken" or "Bad chicken". Good chicken can only be brown.
+-- Else if
+-- *Print "Good chicken" or "Bad chicken" or "Robot chicken". Robot chicken are gray, regardless of eggs.
+-- Nested ifs, equivalencies
+- Branching flow
+-- see branch
+-- create branch
+-- see branch
+-- git checkout
+-- Create new file with anything, commit it, push it
+-- See changes in github
+-- git checkout master (file is gone? still on github)
+-- git checkout branch, git checkout master
+-- existing branches, multiple people, merges (only mention the problem)
+- Loops
+-- for initial, condition, increment
+-- *Print "1 chicken", "2 chicken", "3 chicken" ... "10 chicken"
+-- Decompose: initial + body + if + jump
+-- *Print "0 chicken", "1 chicken", "2 chicken" ... "10 chicken"   // Change initial
+-- *Print "0 chicken", "1 chicken", "2 chicken", ..., "10 chicken", "11 chicken", ..., "29 chicken" // Change condition
+-- *Print "10 chicken", "20 chicken", "30 chicken" ... "100 chicken" // Change increment
+-- *Print "4 fingers", "4 fingers", "8 fingers" ... "40 fingers" // Change increment harder
+-- *Print "1 chicken: 4 fingers", "2 chicken: 8 fingers", "3 chicken: 12 fingers" ... "10 chicken: 40 fingers" // Choose what to iterate, calculate
+-- *Print "10 chicken", "9 chicken", "8 chicken" ... "1 chicken" // Reverse
+-- *Print "1 chicken: 1 eggs", "1 chicken: 2 eggs", ..., "1 chicken: 12 eggs", "2 chicken: 1 eggs", "2 chicken: 2 eggs", ... "10 chicken: 12 eggs" // Nested
+-- Can use variables too
+- Pull request flow
+-- Solution for multiple people
+-- Ticket: 0 eggs, 1 egg, 2 eggs, ... 6 eggs. Only for 5 chicken
+-- create branch
+-- git checkout
+-- Make the changes
+-- Test?
+-- commit
+-- See changes in github
+-- create pull request
+-- merge pull request
+- Functions
+-- Doing things inside
+-- Parameters
+-- Return
+-- Both
+-- System functions, where to find them?
+-- Stack overflow, googling
+- Lists
+-- Initialization
+-- Adding / removing
+-- Iterating
+-- Searching
+-- *["Goat", "Chicken", "Cow"] has chicken?
+- Input
+-- User input (stdin)
+-- *How many chicken? How many eggs per chicken?
+-- Read files
+-- *Print this README.md
+-- *Print this README.md but change chicken with superchicken
+-- *Configfile for "superchicken"
+- Output
+-- Writing to files
+-- Use function to print to file / stdout
+-- *SELF REPLICATION
+- Importing other files / modules
+- Clean code
+-- Naming
+-- DRY
+-- Single responsability
+-- High cohesion / low coupling
+- (Unit tests)
+-- What/how/why
+-- Arrange, Act, Assert
+-- WhenThen
+- (Continous Integration)
+-- Triggers, builds, integration on pull requests, nightlies...
+
