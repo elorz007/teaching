@@ -2,6 +2,8 @@
 Basic python scripts to teach programming
 
 https://www.learnpython.org/en/Hello,_World!
+https://docs.python.org/3/library/
+https://www.learnpython.org/en/Modules_and_Packages
 
 - Setup
 -- Install linux terminal
@@ -48,6 +50,7 @@ https://www.learnpython.org/en/Hello,_World!
 - Operations
 -- Adding, multiplying, dividing numbers (int vs float)
 -- Adding strings. Substracting strings?
+-- String interpolation
 -- *Print "30 boxes of 12 eggs each: 360 eggs"
 -- *Print "31 boxes of 12 eggs each: 372 eggs"
 -- *Print "1053 boxes of 12 eggs each: 12636 eggs"
@@ -77,7 +80,7 @@ https://www.learnpython.org/en/Hello,_World!
 - Loops
 -- for initial, condition, increment
 -- *Print "1 chicken", "2 chicken", "3 chicken" ... "10 chicken"
--- Decompose: initial + body + if + jump
+-- Decompose: initial + body + if + jump (while)
 -- *Print "0 chicken", "1 chicken", "2 chicken" ... "10 chicken"   // Change initial
 -- *Print "0 chicken", "1 chicken", "2 chicken", ..., "10 chicken", "11 chicken", ..., "29 chicken" // Change condition
 -- *Print "10 chicken", "20 chicken", "30 chicken" ... "100 chicken" // Change increment
@@ -110,6 +113,8 @@ https://www.learnpython.org/en/Hello,_World!
 -- Iterating
 -- Searching
 -- *["Goat", "Chicken", "Cow"] has chicken?
+-- Dictionaries
+-- Comment: stacks, linked lists, etc. etc.
 - Input
 -- User input (stdin)
 -- *How many chicken? How many eggs per chicken?
@@ -122,6 +127,7 @@ https://www.learnpython.org/en/Hello,_World!
 -- Use function to print to file / stdout
 -- *SELF REPLICATION
 - Importing other files / modules
+- Classes, objects, ivars, class vars, static methods
 - Clean code
 -- Naming
 -- DRY
@@ -133,4 +139,9 @@ https://www.learnpython.org/en/Hello,_World!
 -- WhenThen
 - (Continous Integration)
 -- Triggers, builds, integration on pull requests, nightlies...
+
+
+- Project
+-- Panda? https://www.learnpython.org/en/Pandas_Basics
+-- Define input / output, modules
 
